@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube WebView</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <button id="toggle-ads">Ocultar Anuncios</button>
+            <button id="orange-mode">Modo Naranja</button>
+            <button id="login">Iniciar Sesión con Google</button>
+            <button id="download-video">Descargar Video 1080p 60fps</button>
+            <select id="language-select">
+                <option value="es">Español</option>
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+                <option value="de">Deutsch</option>
+                <option value="it">Italiano</option>
+                <option value="pt">Português</option>
+                <option value="nl">Nederlands</option>
+                <option value="ru">Русский</option>
+            </select>
+        </div>
+        <iframe id="youtube-iframe" src="https://www.youtube.com" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
